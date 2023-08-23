@@ -1,0 +1,77 @@
+@keyframes leftToRight {
+   0%{margin-left: -100%;}
+   100%{margin-left: 0%;}
+}
+@keyframes rightToLeft {
+    0%{margin-right: -100%;}
+    100%{margin-right: 0%;}
+ }
+
+ @keyframes topToBottom {
+    0%{margin-top: -100%;}
+    100%{margin-top: 0%;}
+ }
+ @keyframes bottomToTop {
+    0%{margin-bottom: -100%;}
+    100%{margin-bottom: 0%;}
+ }
+ 
+ .full-height{
+    height: 100vh;
+ }
+
+ .box{
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    background-color: black;
+}
+.box1{
+    animation-name: leftToRight;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;  
+    animation-iteration-count:inherit;
+}
+.box2{
+    animation-name: rightToLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;  
+    animation-iteration-count: 1;
+}
+
+.box3{
+    animation-name: topToBottom;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;  
+    animation-iteration-count: 1;
+}
+.box4{
+    animation-name: bottomToTop;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;  
+    animation-iteration-count: 1;
+}
+
+.box4{
+    animation-name: bottomToTop;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;  
+    animation-iteration-count: 1;
+
+}
+.box4{
+    animation-name: bottomToTop;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;  
+    animation-iteration-count: 1;
+
+}
+
+
+
+
+.text-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
